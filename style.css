@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .radio {
     display: none;
@@ -12,17 +11,11 @@ body {
     background: radial-gradient(circle, rgba(38,201,19,1) 18%, rgba(102,3,124,1) 66%);
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    margin: 0 10px;
+.main-content {
+  font-size: 25px;
+  color: rgb(255, 216, 40);
+  position: relative;
+  top: 500px;
 }
 
 .container {
@@ -62,12 +55,12 @@ nav {
   position: absolute;
   width: 100%;
   left: 15%;
-  top: -100%;
-  color:limegreen;
+  top: -50%;
+  color:rgb(236, 222, 23);
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  letter-spacing: -5px;
+  letter-spacing: 2px;
   line-height: 50px;
   transition: 0.9s;
 }
@@ -77,6 +70,7 @@ nav {
   text-transform: initial;
   font-size: 30px;
   font-weight: 400;
+  letter-spacing: 12px;
   color: #fff;
   line-height: 15px;
 }
@@ -93,16 +87,16 @@ nav {
 .dots label {
   width: 15px;
   height: 15px;
-  background-color: aqua;
+  background-color: rgb(238, 189, 53);
   margin: 0 10px;
   border-radius: 50%;
-  opacity: 0.3;
+  opacity: 0.7;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
 
 .dots label:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 #radio-1:checked ~ #slide-1,
@@ -131,22 +125,12 @@ nav {
   font-size: 60px;
 }
 
-h1 {
-    text-align: center;
-    color: #fcfa21;
-}
-
-h2 {
-    text-align: center;
-    color: chartreuse;
-}
-
 header {
-    text-align: center;
+  text-align: center;
     font-size: 40px;
     font-weight: bold;
-    padding: 50px 0;
     color: gold;
+    padding-bottom: 30px;
 }
 
 
